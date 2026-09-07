@@ -1,0 +1,102 @@
+# Capy of Gods
+
+> Capy of Gods is an action roguelike where a capybara climbs a colossal tower while its weapons fire on their own. Vertical platforming meets bullet-heaven combat. Free demo on Steam.
+
+Capy of Gods is an action roguelike in which a capybara climbs a colossal tower while its weapons fire on their own. It mixes the wave combat of a bullet heaven with classic platforming and dodge-dashing, across procedurally generated floors. The demo is free on Steam now and the full game is planned for October 2026.
+
+- Developer: CapyEmber (one-person studio, Chile). Contact: capyember@gmail.com
+- Platform: PC via Steam (Windows, Linux, macOS). Free demo available. Full release planned for October 2026.
+- Steam: https://store.steampowered.com/app/4955600
+- Trailer: https://youtu.be/9lMy9L7tKdw
+- Discord: https://discord.gg/KsckWpZKXZ
+
+## Pages
+
+- [How to play](https://capyofgods.com/wiki/how-to-play/): Controls, experience, level-ups, chests, summoning the boss and reaching the next floor.
+- [Characters](https://capyofgods.com/wiki/characters/): The 12 playable capybaras, their starting weapons, passives and how to unlock them.
+- [Weapons](https://capyofgods.com/wiki/weapons/): Every automatic weapon, what it does and how to unlock it.
+- [Instincts](https://capyofgods.com/wiki/instincts/): The 26 animal instincts (passives) you pick on level-up.
+- [Items](https://capyofgods.com/wiki/items/): Chest and shop items by rarity, with their effects.
+- [Bosses](https://capyofgods.com/wiki/bosses/): Semi-bosses, floor bosses and the final bosses of each phase.
+- [Enemies](https://capyofgods.com/wiki/enemies/): The regular enemies of each biome and what they do.
+- [The tower](https://capyofgods.com/wiki/tower/): Phases, floors, biomes, structures, events and difficulties.
+- [Progression & unlocks](https://capyofgods.com/wiki/progression/): Rubies, permanent attributes and the full mission list.
+- [Lore](https://capyofgods.com/wiki/lore/): The legend of Sir Capy Drake, the Crimson Peaks and the race called Capy of Gods.
+- [FAQ](https://capyofgods.com/wiki/faq/): Release, price, platforms, languages, streaming and more.
+- [Press kit](https://capyofgods.com/press/)
+- [Sitio en español](https://capyofgods.com/es/)
+
+## Characters
+
+- Bob: starting weapon Toxic Drool; passive Detective's Nose (+1% crit chance per level; +10% luck every 10 levels)
+- C-Rex: starting weapon Fiery Spit; passive Primal Fury (+1% damage per level; +1 Quantity on all weapons every 10 levels)
+- Johnny: starting weapon Razor Fur; passive Hardened Shell (+1 armor per level; +3% weapon size every 10 levels)
+- Capytain Gale: starting weapon Wild Gust; passive Tailwind (+2% dodge per level; +1 max jump every 10 levels)
+- Deadeye: starting weapon Sniper Rifle; passive Lethal Aim (+1% crit chance per level; +25% crit damage every 10 levels)
+- Dr. Plague: starting weapon Flamethrower; passive Burning Fever (+1% burn chance per level; +10% effect duration every 10 levels)
+- Gary: starting weapon Octo Sentry; passive Assembly Line (+1% attack speed per level; +1 Quantity on all weapons every 10 levels)
+- Lycap: starting weapon Claw Sweep; passive Bloodlust (+1% lifesteal per level; +20% movement speed every 10 levels)
+- Sir Drake Jr.: starting weapon Valiant Slash; passive Hidalgo's Pride (+2% damage per level; +10 armor every 10 levels)
+- Skelly-san: starting weapon Glow Stick; passive Idol Fever (+3% luck per level; +10% projectile speed every 10 levels)
+- Sparky: starting weapon Thunder Coil; passive Overcharge (+1% attack speed per level; +10% projectile speed every 10 levels)
+- Stinky: starting weapon Toxic Stench; passive Lingering Stink (+1% effect duration per level; +10% weapon size every 10 levels)
+
+## Weapons
+
+- Razor Fur: A bristling fur aura that damages anything nearby
+- Claw Sweep: Rends enemies in a cone toward the nearest foe. On kill, 5% chance to heal 1 HP.
+- Toxic Drool: Spits venomous projectiles that bounce between enemies
+- Fiery Spit: Launches fireballs that burn monsters
+- Flamethrower: Sprays a stream of flames that swivels toward the nearest enemy and may burn everything it sweeps across
+- Glow Stick: Throws a stick that slows down, turns around and flies back. It hits on the way out and back.
+- Thunder Coil: Summons electric shocks on nearby enemies
+- Octo Sentry: Every 3 s deploys an octo sentry that lives 5 s and shoots nearby enemies using your stats.
+- Sniper Rifle: Fires piercing shots that go through enemies in a line. Aim with the mouse or right stick
+- Toxic Stench: Leaves stink clouds in your wake as you move. They hit whoever is inside and may poison them; the poison stacks without limit.
+- Valiant Slash: Slashes an arc at the nearest foe. Every 3rd swing spins 360° with +100% crit chance.
+- Wild Gust: Blows wind gusts that chase enemies. Gusts fired in midair deal double damage.
+
+## Instincts
+
+- Stone Skin: Your skin hardens like rock: gain armor that reduces damage taken
+- Wild Reflexes: Increases attack speed
+- Balanced Instinct: Each level raises damage, max health, movement speed and attack speed at once
+- Chaotic Instinct: Each level boosts a random stat, stronger than its own instinct would
+- Keen Eye: Increases the chance to land critical hits
+- Ferocious Bite: Increases critical hit damage
+- Sharp Fangs: Increases damage of all attacks
+- Dark Mark: More enemies with more health and a bit more damage, but they drop more gold
+- Slippery Fur: Increases the chance to dodge enemy attacks
+- Long Fuse: Extends the duration of the effects you cause
+- Ancestral Instinct: Gain more experience per enemy
+- Greedy Snout: Increases the gold dropped by enemies
+- Young Blood: All healing you receive is more effective
+- Bloodthirst: Increases the life steal of your direct hits
+- Fortune Whiskers: Increases the chance of higher rarity rewards
+- Keen Nose: Attracts experience orbs from farther away
+- Thick Hide: Increases maximum health
+- Swift Paws: Increases movement speed
+- Wild Momentum: Your projectiles fly faster and travel farther
+- Extra Projectile: Your weapons fire more projectiles. Does not affect Razor Fur, Flamethrower or Toxic Stench.
+- Steady Heartbeat: Recover a percentage of your max health every second
+- Shell: Gain a blue shield that absorbs damage and regenerates when you avoid hits
+- Coated Claws: Increases the chance to apply status effects; above 100% it applies extra stacks
+- Scavenger's Instinct: Increases damage to enemies with an active status effect
+- Spiked Fur: Enemies that touch you lose part of their max health. Does not affect bosses.
+- Overgrowth: Makes your weapons and projectiles bigger
+
+## Bosses
+
+- Shoggoth
+- Voidborn Goddess
+- Forest Whale
+- Cat Fight
+- Fat Plant
+- Bringer of Death
+- Bone Wheel
+- Death
+- Voidcaller
+- The Devourer
+- The Devourer's Mother
+- C-Rex
+- Skelly-san
