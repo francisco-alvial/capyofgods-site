@@ -291,9 +291,38 @@
     addEventListener('hashchange', flash); setTimeout(flash, 300);
   }
 
+  /* ---------------------------------------------------------------- idioma: preferencia + detección */
+  function language() {
+    var html = document.documentElement, cur = html.getAttribute('data-lang') || 'en';
+    var langs = (html.getAttribute('data-langs') || 'en').split(',');
+    $$('[data-setlang]').forEach(function (a) {
+      a.addEventListener('click', function () { try { localStorage.setItem('cog-lang', a.getAttribute('data-setlang')); } catch (e) {} });
+    });
+    document.addEventListener('click', function (e) { $$('details.langs[open]').forEach(function (d) { if (!d.contains(e.target)) d.removeAttribute('open'); }); });
+    // Solo en la portada inglesa (raíz), solo si nadie eligió idioma antes: lleva al idioma del navegador.
+    var base = html.getAttribute('data-base') || '';
+    if (cur !== 'en' || location.pathname.replace(/\/+$/, '') !== base) return;
+    var saved = null; try { saved = localStorage.getItem('cog-lang'); } catch (e) {}
+    if (saved) { if (saved !== 'en' && langs.indexOf(saved) >= 0) location.replace(base + '/' + saved + '/'); return; }
+    var nav = (navigator.languages || [navigator.language || 'en']);
+    for (var i = 0; i < nav.length; i++) {
+      var l = (nav[i] || '').toLowerCase(), pick = null;
+      if (l === 'es-es') pick = 'es-es';
+      else if (l.indexOf('es') === 0) pick = 'es';
+      else if (l === 'pt-pt') pick = 'pt-pt';
+      else if (l.indexOf('pt') === 0) pick = 'pt-br';
+      else if (l === 'zh-tw' || l === 'zh-hk' || l === 'zh-mo' || l.indexOf('zh-hant') === 0) pick = 'zh-tw';
+      else if (l.indexOf('zh') === 0) pick = 'zh-cn';
+      else if (l.indexOf('no') === 0 || l.indexOf('nn') === 0 || l.indexOf('nb') === 0) pick = 'nb';
+      else pick = l.split('-')[0];
+      if (pick === 'en') return;
+      if (langs.indexOf(pick) >= 0) { location.replace(base + '/' + pick + '/' + location.search + location.hash); return; }
+    }
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     $$('.wiki aside a, .parade').forEach(function () {});
     plx = $$('.band .bg');
-    embers(); chrome(); reveals(); videos(); tilt(); lightbox(); trailer(); counters(); spoilers(); filters(); search(); anchorFlash();
+    language(); embers(); chrome(); reveals(); videos(); tilt(); lightbox(); trailer(); counters(); spoilers(); filters(); search(); anchorFlash();
   });
 })();

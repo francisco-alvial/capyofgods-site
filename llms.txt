@@ -7,7 +7,7 @@ Capy of Gods is an action roguelike in which a capybara climbs a colossal tower 
 - Developer: CapyEmber (one-person studio, Chile). Contact: capyember@gmail.com
 - Platform: PC via Steam (Windows, Linux, macOS). Released in Early Access on November 9, 2026. USD 7.99. Free demo available.
 - Steam: https://store.steampowered.com/app/4955600
-- Trailer: https://youtu.be/9lMy9L7tKdw
+- Trailer: https://youtu.be/0sQhCQsO3Mc
 - Discord: https://discord.gg/KsckWpZKXZ
 
 ## Pages
@@ -24,7 +24,7 @@ Capy of Gods is an action roguelike in which a capybara climbs a colossal tower 
 - [Lore](https://capyofgods.com/wiki/lore/): The legend of Sir Capy Drake, the Crimson Peaks and the race called Capy of Gods.
 - [FAQ](https://capyofgods.com/wiki/faq/): Early Access, price, platforms, languages, streaming and more.
 - [Press kit](https://capyofgods.com/press/)
-- [Sitio en español](https://capyofgods.com/es/)
+- Other languages: [Español (Latinoamérica)](https://capyofgods.com/es/), [Español (España)](https://capyofgods.com/es-es/), [Português (Brasil)](https://capyofgods.com/pt-br/), [Português (Portugal)](https://capyofgods.com/pt-pt/), [Français](https://capyofgods.com/fr/), [Italiano](https://capyofgods.com/it/), [Deutsch](https://capyofgods.com/de/), [Nederlands](https://capyofgods.com/nl/), [Dansk](https://capyofgods.com/da/), [Svenska](https://capyofgods.com/sv/), [Norsk bokmål](https://capyofgods.com/nb/), [Suomi](https://capyofgods.com/fi/), [Polski](https://capyofgods.com/pl/), [Čeština](https://capyofgods.com/cs/), [Magyar](https://capyofgods.com/hu/), [Română](https://capyofgods.com/ro/), [Türkçe](https://capyofgods.com/tr/), [Ελληνικά](https://capyofgods.com/el/), [Български](https://capyofgods.com/bg/), [Русский](https://capyofgods.com/ru/), [Українська](https://capyofgods.com/uk/), [Bahasa Indonesia](https://capyofgods.com/id/), [Bahasa Melayu](https://capyofgods.com/ms/), [Tiếng Việt](https://capyofgods.com/vi/), [简体中文](https://capyofgods.com/zh-cn/), [繁體中文](https://capyofgods.com/zh-tw/), [日本語](https://capyofgods.com/ja/), [한국어](https://capyofgods.com/ko/)
 
 ## Characters
 
