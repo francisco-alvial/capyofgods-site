@@ -1,18 +1,110 @@
 # Capy of Gods
 
-> Capy of Gods is an action roguelike where a capybara climbs a colossal tower while its weapons fire on their own. Vertical platforming meets bullet-heaven combat. Free demo on Steam.
+> Capy of Gods is an action roguelike where a capybara climbs a colossal tower while its weapons fire on their own. Vertical platforming meets bullet-heaven combat. Out now in Early Access on Steam.
 
-Capy of Gods is an action roguelike in which a capybara climbs a colossal tower while its weapons fire on their own. It mixes the wave combat of a bullet heaven with classic platforming and dodge-dashing, across procedurally generated floors. The demo is free on Steam now and the full game is planned for October 2026.
+Capy of Gods is an action roguelike in which a capybara climbs a colossal tower while its weapons fire on their own. It mixes the wave combat of a bullet heaven with classic platforming and dodge-dashing, across procedurally generated floors, three climbs and more than 25 bosses. It is out now in Early Access on Steam, with a free demo.
 
 - Developer: CapyEmber (one-person studio, Chile). Contact: capyember@gmail.com
-- Platform: PC via Steam (Windows, Linux, macOS). Free demo available. Full release planned for October 2026.
+- Platform: PC via Steam (Windows, Linux, macOS). Released in Early Access on November 9, 2026. USD 7.99. Free demo available.
 - Steam: https://store.steampowered.com/app/4955600
 - Trailer: https://youtu.be/9lMy9L7tKdw
 - Discord: https://discord.gg/KsckWpZKXZ
 
 ## Pages
 
+- [How to play](https://capyofgods.com/wiki/how-to-play/): Controls, experience, level-ups, chests, structures, summoning the boss and the horde.
+- [Characters](https://capyofgods.com/wiki/characters/): The 12 playable capybaras: stats, starting weapons, passives and how to unlock them.
+- [Weapons](https://capyofgods.com/wiki/weapons/): Every automatic weapon, what it does and how to unlock it.
+- [Instincts](https://capyofgods.com/wiki/instincts/): The 26 animal instincts (passives) you pick on level-up.
+- [Items](https://capyofgods.com/wiki/items/): Chest and shop items by rarity, with their effects.
+- [Bosses](https://capyofgods.com/wiki/bosses/): Semi-bosses, floor bosses, mission bosses and the final encounters of each climb.
+- [Enemies](https://capyofgods.com/wiki/enemies/): The regular enemies of each biome and what they do.
+- [The climbs](https://capyofgods.com/wiki/tower/): The three climbs, biomes, events on the clock, difficulties and leaderboards.
+- [Progression & unlocks](https://capyofgods.com/wiki/progression/): Rubies, permanent attributes, unlock chains and the full mission list.
+- [Lore](https://capyofgods.com/wiki/lore/): The legend of Sir Capy Drake, the Crimson Peaks and the race called Capy of Gods.
+- [FAQ](https://capyofgods.com/wiki/faq/): Early Access, price, platforms, languages, streaming and more.
 - [Press kit](https://capyofgods.com/press/)
 - [Sitio en español](https://capyofgods.com/es/)
 
-The complete guide to characters, weapons, instincts, items, bosses and unlocks will be published here when Capy of Gods launches. Until then, the press kit has the description, the features and the media.
+## Characters
+
+- Bob: starting weapon Toxic Drool; passive Detective's Nose (+1% crit chance per level; +10% luck every 10 levels)
+- C-Rex: starting weapon Fiery Spit; passive Primal Fury (+1% damage per level; +1 Quantity on all weapons every 10 levels)
+- Johnny: starting weapon Razor Fur; passive Hardened Shell (+1 armor per level; +3% weapon size every 10 levels)
+- Capytain Gale: starting weapon Wild Gust; passive Tailwind (+2% dodge per level; +1 max jump every 10 levels)
+- Deadeye: starting weapon Sniper Rifle; passive Lethal Aim (+1% crit chance per level; +25% crit damage every 10 levels)
+- Dr. Plague: starting weapon Flamethrower; passive Burning Fever (+1% burn chance per level; +10% effect duration every 10 levels)
+- Gary: starting weapon Octo Sentry; passive Assembly Line (+2% effect duration per level; +1 Quantity on all weapons every 10 levels)
+- Lycap: starting weapon Claw Sweep; passive Bloodlust (+1% lifesteal per level; +20% movement speed every 10 levels)
+- Sir Drake Jr.: starting weapon Valiant Slash; passive Hidalgo's Pride (+2% damage per level; +10 armor every 10 levels)
+- Skelly-san: starting weapon Glow Stick; passive Idol Fever (+3% luck per level; +10% projectile speed every 10 levels)
+- Sparky: starting weapon Thunder Coil; passive Overcharge (+1% attack speed per level; +10% projectile speed every 10 levels)
+- Stinky: starting weapon Toxic Stench; passive Lingering Stink (+1% effect duration per level; +10% weapon size every 10 levels)
+
+## Weapons
+
+- Razor Fur: A bristling fur aura that damages anything nearby
+- Claw Sweep: Rends enemies in a cone toward the nearest foe. On kill, 5% chance to heal 1 HP.
+- Toxic Drool: Spits venomous projectiles that bounce between enemies
+- Fiery Spit: Launches fireballs that burn monsters
+- Flamethrower: Sprays a stream of flames that swivels toward the nearest enemy and may burn everything it sweeps across
+- Glow Stick: Throws a stick that slows down, turns around and flies back. It hits on the way out and back.
+- Thunder Coil: Summons electric shocks on nearby enemies
+- Octo Sentry: Every 3 s deploys an octo sentry that lives 5 s and shoots nearby enemies using your stats.
+- Sniper Rifle: Fires piercing shots that go through enemies in a line. Aim with the mouse or right stick
+- Toxic Stench: Leaves stink clouds in your wake as you move. They hit whoever is inside and may poison them; the poison stacks without limit.
+- Valiant Slash: Slashes an arc at the nearest foe. Every 3rd swing spins 360° with +100% crit chance.
+- Wild Gust: Blows wind gusts that chase enemies. Gusts fired in midair deal double damage.
+
+## Instincts
+
+- Stone Skin: Your skin hardens like rock: gain armor that reduces damage taken
+- Wild Reflexes: Increases attack speed
+- Balanced Instinct: Each level raises damage, max health, movement speed and attack speed at once
+- Chaotic Instinct: Each level boosts a random stat. Higher rarity hits harder: at legendary it's worth double its own instinct
+- Keen Eye: Increases the chance to land critical hits
+- Ferocious Bite: Increases critical hit damage
+- Sharp Fangs: Increases damage of all attacks
+- Dark Mark: More enemies with more health and a bit more damage, but they drop more gold
+- Slippery Fur: Increases the chance to dodge enemy attacks
+- Long Fuse: Extends the duration of the effects you cause
+- Ancestral Instinct: Gain more experience per enemy
+- Greedy Snout: Increases the gold dropped by enemies
+- Young Blood: All healing you receive is more effective
+- Bloodthirst: You steal life from your enemies: every direct hit heals you. Every 100% life steal = 1 health per hit.
+- Fortune Whiskers: Increases the chance of higher rarity rewards
+- Keen Nose: Attracts experience orbs from farther away
+- Thick Hide: Increases maximum health
+- Swift Paws: Increases movement speed
+- Wild Momentum: Your projectiles fly faster and travel farther
+- Extra Projectile: Your weapons fire more projectiles. Does not affect Razor Fur, Flamethrower or Toxic Stench.
+- Steady Heartbeat: Recover a percentage of your max health every second
+- Shell: Gain a blue shield that absorbs damage and regenerates when you avoid hits
+- Coated Claws: Increases the chance to apply status effects; above 100% it applies extra stacks
+- Scavenger's Instinct: Increases damage to enemies with an active status effect
+- Spiked Fur: Your fur bristles with spikes: enemies that touch you lose part of their max health. Bosses, with tougher hides, only lose a tenth as much.
+- Overgrowth: Makes your weapons and projectiles bigger
+
+## Bosses
+
+- Shoggoth: Flying horror that teleports around you and charges straight through. Read the tell before the dash.
+- Voidborn Goddess: Predicts where you are going to dodge and drops her hand spell right there, followed by a spread of four projectiles.
+- Voidcaller: Teleports around the arena and cycles dark flames, a laser and tentacles that rise from the ground.
+- C-Rex: Appears if you accept the Ghost Capybara's request and destroy the obelisks. Defeating it starts the C-Rex unlock chain.
+- Forest Whale: A flying whale that leaves a cloud of dust which makes nearby enemies stronger, fires a telegraphed dart and charges a slow energy ball.
+- Mantis: A giant mantis that cycles three attacks: thrusts up close, a leaping slam marked on the ground and a cone of three blades.
+- Fat Plant: A huge carnivorous plant that roots itself near you. Spore rings that poison, acid rain and a slow homing acid ball.
+- Bringer of Death: Teleports to a platform in view every few seconds, slashes, fires a dark wave and drops portal hands right where you stand.
+- Bone Wheel: A rolling wheel of bones. A burst of five ghost dashes, and a belly flop that falls from the sky on the mark under your feet.
+- Death: Throws its scythe like a boomerang from above and below, dives at you and raises skeleton archers.
+- Skelly-san: Comes through the pink door once you return the torn banners. Defeating it starts the Skelly-san unlock chain.
+- Dino Rex: A giant dinosaur that freezes mid-air before a belly slam, crosses the room in a ghost dash and calls flags that rain balls from the sky.
+- Pengu: A penguin in sunglasses: jumping pecks, ice blocks that fall in sequence and a sweeping beam.
+- Lisa: A flying sorceress with five spells: rising bubbles, a water explosion, heads from the ground, ice walls that close in and falling spikes.
+- Yeti: Arrives when you try to free the frozen climber in the snow. Snowballs in an arc and a jump that raises a wave of ice.
+- Demon Samurai: A three-slash combo with a dash on each cut and a leaping strike. At half health it shouts, ignites its sword and gets faster and tougher.
+- Puppet H: A floating stone puppet whose closed eyes reveal the next spell: closing rock walls, pillars where you stand or crystal fists from above.
+- Bertha: A giant goblin with an axe: heavy combos, stomps that send earth eruptions forward, leaping slams and a five-second tornado.
+- Morthag: Plants itself and breathes a huge frontal flame, raises fire tornadoes around you and charges an explosion overhead.
+- Demon Slime: Starts as a bouncing slime with its own health bar. Then it transforms into a demon with a cleaver, triple jumps and black fire.
+- Megumi: A salamander witch that sprints across the room casting black holes, fire tornadoes and fireballs. Every few spells her salamander becomes a dragon and fires a beam that crosses the whole level.

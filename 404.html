@@ -1,53 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-base="" data-close="Close">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>404 — Capy of Gods</title>
-<meta name="description" content="Capy of Gods is an action roguelike where a capybara climbs a colossal tower while its weapons fire on their own. Vertical platforming meets bullet-heaven combat. Free demo on Steam.">
+<title>404 · Capy of Gods</title>
+<meta name="description" content="Capy of Gods is an action roguelike where a capybara climbs a colossal tower while its weapons fire on their own. Vertical platforming meets bullet-heaven combat. Out now in Early Access on Steam.">
+<meta name="theme-color" content="#0a0710">
 <link rel="canonical" href="https://capyofgods.com/">
 <link rel="alternate" hreflang="en" href="https://capyofgods.com/">
 <link rel="alternate" hreflang="es" href="https://capyofgods.com/es/">
 <link rel="alternate" hreflang="x-default" href="https://capyofgods.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Capy of Gods">
-<meta property="og:title" content="404 — Capy of Gods">
-<meta property="og:description" content="Capy of Gods is an action roguelike where a capybara climbs a colossal tower while its weapons fire on their own. Vertical platforming meets bullet-heaven combat. Free demo on Steam.">
+<meta property="og:title" content="404 · Capy of Gods">
+<meta property="og:description" content="Capy of Gods is an action roguelike where a capybara climbs a colossal tower while its weapons fire on their own. Vertical platforming meets bullet-heaven combat. Out now in Early Access on Steam.">
 <meta property="og:url" content="https://capyofgods.com/">
 <meta property="og:image" content="https://capyofgods.com/assets/brand/og_image.jpg">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@capyember">
-<meta name="twitter:title" content="404 — Capy of Gods">
-<meta name="twitter:description" content="Capy of Gods is an action roguelike where a capybara climbs a colossal tower while its weapons fire on their own. Vertical platforming meets bullet-heaven combat. Free demo on Steam.">
+<meta name="twitter:title" content="404 · Capy of Gods">
+<meta name="twitter:description" content="Capy of Gods is an action roguelike where a capybara climbs a colossal tower while its weapons fire on their own. Vertical platforming meets bullet-heaven combat. Out now in Early Access on Steam.">
 <meta name="twitter:image" content="https://capyofgods.com/assets/brand/og_image.jpg">
 <link rel="icon" href="/assets/brand/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/apple_touch_icon.png">
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="preload" href="/assets/fonts/CapyPixel-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="/assets/style.css?v=202611120250">
+<script src="/assets/site.js?v=202611120250" defer></script>
 
 </head>
-<body>
+<body class="">
+<canvas id="embers" aria-hidden="true"></canvas>
 <header class="site"><div class="wrap">
-<a class="brand" href="/" aria-label="Capy of Gods"><img src="/assets/brand/logo_small.png" alt="Capy of Gods"></a>
+<a class="brand" href="/" aria-label="Capy of Gods"><img src="/assets/brand/logo_small.png" alt="Capy of Gods" width="165" height="30"></a>
+<button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span></button>
 <nav>
+<a href="/">Home</a>
+<a href="/wiki/">Wiki</a>
 <a href="/press/">Press Kit</a>
 <a href="https://discord.gg/KsckWpZKXZ" target="_blank" rel="noopener">Discord</a>
-<a class="steam" href="https://store.steampowered.com/app/4955600" target="_blank" rel="noopener">Steam</a>
 <a class="lang" href="/es/" hreflang="es" lang="es">Español</a>
+<a class="steam-btn" href="https://store.steampowered.com/app/4955600" target="_blank" rel="noopener">Steam</a>
 </nav>
-</div></header><main class="wrap" style="text-align:center;padding:80px 20px"><h1>404</h1><p class="lead">The tower does not have that floor.</p><a class="btn" href="/">Home</a></main>
+</div></header>
+<div class="climb-meter" data-label="Floor" aria-hidden="true"><div class="track"></div><div class="fill"></div><img class="capy pixel" src="/assets/icons/characters/bob.png" alt=""><div class="floor"></div></div><main class="wrap" style="text-align:center;padding:120px 20px"><h1 class="grad-text" style="font-size:7rem">404</h1><p class="lead">The tower does not have that floor.</p><div class="btn-row" style="justify-content:center"><a class="btn primary" href="/">Home</a><a class="btn ghost" href="/wiki/">Wiki</a></div></main>
 <footer class="site"><div class="wrap">
 <div class="studio"><img src="/assets/brand/capyember_logo.png" alt="CapyEmber" class="pixel"><strong>CapyEmber</strong><p>Capy of Gods is made by CapyEmber, a one-person studio from Chile. Built with Godot.</p><p class="small">© 2026 CapyEmber. Capy of Gods is a trademark of CapyEmber. Steam is a trademark of Valve Corporation.</p></div>
 <div><h4>The game</h4><ul>
 <li><a href="https://store.steampowered.com/app/4955600" target="_blank" rel="noopener">Steam page</a></li>
 <li><a href="https://youtu.be/9lMy9L7tKdw" target="_blank" rel="noopener">Trailer on YouTube</a></li>
 <li><a href="/press/">Press Kit</a></li>
-</ul></div>
-<div><h4>Contact</h4><ul>
+<li><a href="/wiki/">Wiki</a></li></ul></div>
+<div><h4>Wiki</h4><ul><li><a href="/wiki/how-to-play/">How to play</a></li><li><a href="/wiki/characters/">Characters</a></li><li><a href="/wiki/weapons/">Weapons</a></li><li><a href="/wiki/instincts/">Instincts</a></li><li><a href="/wiki/items/">Items</a></li><li><a href="/wiki/bosses/">Bosses</a></li><li><a href="/wiki/enemies/">Enemies</a></li></ul></div><div><h4>Contact</h4><ul>
 <li><a href="mailto:capyember@gmail.com">capyember@gmail.com</a></li>
 <li><a href="https://discord.gg/KsckWpZKXZ" target="_blank" rel="noopener">Discord</a></li>
 <li><a href="https://x.com/capyember" target="_blank" rel="noopener">X / Twitter</a></li>
 <li><a href="https://instagram.com/capyember" target="_blank" rel="noopener">Instagram</a></li>
 </ul></div>
 </div></footer>
+<button class="to-top" aria-label="Back to top">▲</button>
 </body></html>

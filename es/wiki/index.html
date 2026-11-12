@@ -1,59 +1,72 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-base="" data-close="Cerrar">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>La wiki se abre con el lanzamiento</title>
-<meta name="description" content="La guía completa de personajes, armas, instintos, objetos, jefes y desbloqueos se publicará aquí cuando salga Capy of Gods. Mientras tanto, el press kit tiene la descripción, las características y el material multimedia.">
-<meta name="robots" content="noindex">
+<title>Wiki de Capy of Gods</title>
+<meta name="description" content="La referencia oficial de Capy of Gods, mantenida por el desarrollador. Cada personaje, arma, instinto, objeto, jefe y condición de desbloqueo, sacados directo de los datos del juego.">
+<meta name="theme-color" content="#0a0710">
 <link rel="canonical" href="https://capyofgods.com/es/wiki/">
 <link rel="alternate" hreflang="en" href="https://capyofgods.com/wiki/">
 <link rel="alternate" hreflang="es" href="https://capyofgods.com/es/wiki/">
 <link rel="alternate" hreflang="x-default" href="https://capyofgods.com/wiki/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Capy of Gods">
-<meta property="og:title" content="La wiki se abre con el lanzamiento">
-<meta property="og:description" content="La guía completa de personajes, armas, instintos, objetos, jefes y desbloqueos se publicará aquí cuando salga Capy of Gods. Mientras tanto, el press kit tiene la descripción, las características y el material multimedia.">
+<meta property="og:title" content="Wiki de Capy of Gods">
+<meta property="og:description" content="La referencia oficial de Capy of Gods, mantenida por el desarrollador. Cada personaje, arma, instinto, objeto, jefe y condición de desbloqueo, sacados directo de los datos del juego.">
 <meta property="og:url" content="https://capyofgods.com/es/wiki/">
 <meta property="og:image" content="https://capyofgods.com/assets/brand/og_image.jpg">
 <meta property="og:locale" content="es_MX">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@capyember">
-<meta name="twitter:title" content="La wiki se abre con el lanzamiento">
-<meta name="twitter:description" content="La guía completa de personajes, armas, instintos, objetos, jefes y desbloqueos se publicará aquí cuando salga Capy of Gods. Mientras tanto, el press kit tiene la descripción, las características y el material multimedia.">
+<meta name="twitter:title" content="Wiki de Capy of Gods">
+<meta name="twitter:description" content="La referencia oficial de Capy of Gods, mantenida por el desarrollador. Cada personaje, arma, instinto, objeto, jefe y condición de desbloqueo, sacados directo de los datos del juego.">
 <meta name="twitter:image" content="https://capyofgods.com/assets/brand/og_image.jpg">
 <link rel="icon" href="/assets/brand/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/apple_touch_icon.png">
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="preload" href="/assets/fonts/CapyPixel-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="/assets/style.css?v=202611120250">
+<script src="/assets/site.js?v=202611120250" defer></script>
 
 </head>
-<body>
+<body class="">
+<canvas id="embers" aria-hidden="true"></canvas>
 <header class="site"><div class="wrap">
-<a class="brand" href="/es/" aria-label="Capy of Gods"><img src="/assets/brand/logo_small.png" alt="Capy of Gods"></a>
+<a class="brand" href="/es/" aria-label="Capy of Gods"><img src="/assets/brand/logo_small.png" alt="Capy of Gods" width="165" height="30"></a>
+<button class="nav-toggle" aria-label="Menú" aria-expanded="false"><span></span></button>
 <nav>
+<a href="/es/">Inicio</a>
+<a href="/es/wiki/" class="active">Wiki</a>
 <a href="/es/press/">Press Kit</a>
 <a href="https://discord.gg/KsckWpZKXZ" target="_blank" rel="noopener">Discord</a>
-<a class="steam" href="https://store.steampowered.com/app/4955600" target="_blank" rel="noopener">Steam</a>
 <a class="lang" href="/wiki/" hreflang="en" lang="en">English</a>
+<a class="steam-btn" href="https://store.steampowered.com/app/4955600" target="_blank" rel="noopener">Steam</a>
 </nav>
 </div></header>
-<main class="wrap" style="text-align:center;padding:80px 20px;max-width:760px">
-<h1>La wiki se abre con el lanzamiento</h1>
-<p class="lead">La guía completa de personajes, armas, instintos, objetos, jefes y desbloqueos se publicará aquí cuando salga Capy of Gods. Mientras tanto, el press kit tiene la descripción, las características y el material multimedia.</p>
-<div class="btn-row" style="justify-content:center"><a class="btn" href="/es/press/">Press Kit</a><a class="btn steam" href="https://store.steampowered.com/app/4955600" target="_blank" rel="noopener">Añadir a deseados en Steam</a></div>
-</main>
+<div class="climb-meter" data-label="Piso" aria-hidden="true"><div class="track"></div><div class="fill"></div><img class="capy pixel" src="/assets/icons/characters/bob.png" alt=""><div class="floor"></div></div>
+<section class="wiki-hero"><div class="bg" style="background-image:url('/assets/brand/library_hero.jpg')"></div><div class="wrap">
+<h1 class="reveal">La wiki de Capy of Gods</h1><p class="lead reveal" style="--d:.08s">La referencia oficial de Capy of Gods, mantenida por el desarrollador. Cada personaje, arma, instinto, objeto, jefe y condición de desbloqueo, sacados directo de los datos del juego.</p>
+</div></section>
+<main class="wrap"><div class="wiki">
+<aside><div class="search" data-index="/assets/search-es.json" data-none="Nada en la torre coincide con eso."><input type="search" placeholder="Buscar en la wiki…" aria-label="Buscar en la wiki…" autocomplete="off"><div class="results"></div></div><div class="title">Wiki</div><ul><li><a href="/es/wiki/" class="active"><img src="/assets/brand/favicon.png" alt="">Inicio</a></li><li><a href="/es/wiki/how-to-play/"><img src="/assets/icons/characters/bob.png" alt="" loading="lazy">Cómo se juega</a></li><li><a href="/es/wiki/characters/"><img src="/assets/icons/characters/caparzo.png" alt="" loading="lazy">Personajes</a></li><li><a href="/es/wiki/weapons/"><img src="/assets/icons/weapons/fireball.png" alt="" loading="lazy">Armas</a></li><li><a href="/es/wiki/instincts/"><img src="/assets/icons/instincts/armor_passive.png" alt="" loading="lazy">Instintos</a></li><li><a href="/es/wiki/items/"><img src="/assets/icons/items/lampara_encantada.png" alt="" loading="lazy">Objetos</a></li><li><a href="/es/wiki/bosses/"><img src="/assets/sprites/boss_devorador.png" alt="" loading="lazy">Jefes</a></li><li><a href="/es/wiki/enemies/"><img src="/assets/sprites/enemy_eyeball.png" alt="" loading="lazy">Enemigos</a></li><li><a href="/es/wiki/tower/"><img src="/assets/sprites/enemy_sentinel_eye.png" alt="" loading="lazy">Los ascensos</a></li><li><a href="/es/wiki/progression/"><img src="/assets/icons/items/lucky_bag.png" alt="" loading="lazy">Progresión y desbloqueos</a></li><li><a href="/es/wiki/lore/"><img src="/assets/sprites/boss_capy_demon_king.png" alt="" loading="lazy">Lore</a></li><li><a href="/es/wiki/faq/"><img src="/assets/brand/favicon.png" alt="" loading="lazy">Preguntas frecuentes</a></li></ul></aside>
+<article>
+<div class="hub-stats"><div class="s reveal" style="--d:0.00s"><b data-count="12">12</b><span>capibaras</span></div><div class="s reveal" style="--d:0.05s"><b data-count="12">12</b><span>armas</span></div><div class="s reveal" style="--d:0.10s"><b data-count="26">26</b><span>instintos</span></div><div class="s reveal" style="--d:0.15s"><b data-count="48">48</b><span>objetos</span></div><div class="s reveal" style="--d:0.20s"><b data-count="25">25</b><span>jefes</span></div><div class="s reveal" style="--d:0.25s"><b data-count="151">151</b><span>misiones</span></div></div>
+<div class="callout reveal"><strong>¿Recién llegas a la torre?</strong> Empieza por Cómo se juega y luego elige un capibara. La página de Jefes tiene un escudo de spoilers para los encuentros finales.</div>
+<div class="grid cols-2"><a class="card hub-card tilt reveal" style="--d:0.00s" href="/es/wiki/how-to-play/"><div class="hc-ico"><img src="/assets/icons/characters/bob.png" alt="" loading="lazy"></div><div><h3>Cómo se juega</h3><p>Controles, experiencia, subidas de nivel, cofres, estructuras, invocar al jefe y la horda.</p></div></a><a class="card hub-card tilt reveal" style="--d:0.08s" href="/es/wiki/characters/"><div class="hc-ico"><img src="/assets/icons/characters/caparzo.png" alt="" loading="lazy"></div><div><h3>Personajes</h3><p>Los 12 capibaras jugables: estadísticas, armas iniciales, pasivas y cómo desbloquearlos.</p></div></a><a class="card hub-card tilt reveal" style="--d:0.00s" href="/es/wiki/weapons/"><div class="hc-ico"><img src="/assets/icons/weapons/fireball.png" alt="" loading="lazy"></div><div><h3>Armas</h3><p>Cada arma automática, qué hace y cómo se desbloquea.</p></div></a><a class="card hub-card tilt reveal" style="--d:0.08s" href="/es/wiki/instincts/"><div class="hc-ico"><img src="/assets/icons/instincts/armor_passive.png" alt="" loading="lazy"></div><div><h3>Instintos</h3><p>Los 26 instintos animales (pasivas) que eliges al subir de nivel.</p></div></a><a class="card hub-card tilt reveal" style="--d:0.00s" href="/es/wiki/items/"><div class="hc-ico"><img src="/assets/icons/items/lampara_encantada.png" alt="" loading="lazy"></div><div><h3>Objetos</h3><p>Objetos de cofre y tienda por rareza, con sus efectos.</p></div></a><a class="card hub-card tilt reveal" style="--d:0.08s" href="/es/wiki/bosses/"><div class="hc-ico"><img src="/assets/sprites/boss_devorador.png" alt="" loading="lazy"></div><div><h3>Jefes</h3><p>Semijefes, jefes de piso, jefes de misión y los encuentros finales de cada ascenso.</p></div></a><a class="card hub-card tilt reveal" style="--d:0.00s" href="/es/wiki/enemies/"><div class="hc-ico"><img src="/assets/sprites/enemy_eyeball.png" alt="" loading="lazy"></div><div><h3>Enemigos</h3><p>Los enemigos comunes de cada bioma y qué hacen.</p></div></a><a class="card hub-card tilt reveal" style="--d:0.08s" href="/es/wiki/tower/"><div class="hc-ico"><img src="/assets/sprites/enemy_sentinel_eye.png" alt="" loading="lazy"></div><div><h3>Los ascensos</h3><p>Los tres ascensos, biomas, eventos con reloj, dificultades y tablas de clasificación.</p></div></a><a class="card hub-card tilt reveal" style="--d:0.00s" href="/es/wiki/progression/"><div class="hc-ico"><img src="/assets/icons/items/lucky_bag.png" alt="" loading="lazy"></div><div><h3>Progresión y desbloqueos</h3><p>Rubíes, atributos permanentes, cadenas de desbloqueo y la lista completa de misiones.</p></div></a><a class="card hub-card tilt reveal" style="--d:0.08s" href="/es/wiki/lore/"><div class="hc-ico"><img src="/assets/sprites/boss_capy_demon_king.png" alt="" loading="lazy"></div><div><h3>Lore</h3><p>La leyenda de Sir Capy Drake, los Picos Carmesí y la carrera llamada Capy of Gods.</p></div></a><a class="card hub-card tilt reveal" style="--d:0.00s" href="/es/wiki/faq/"><div class="hc-ico"><img src="/assets/brand/favicon.png" alt="" loading="lazy"></div><div><h3>Preguntas frecuentes</h3><p>Acceso Anticipado, precio, plataformas, idiomas, streaming y más.</p></div></a></div><p class="small muted" style="margin-top:40px">Esta wiki la mantiene el desarrollador y refleja la versión actual de Acceso Anticipado. Los números pueden cambiar con las actualizaciones. Última actualización: 2026-11-12.</p></article>
+</div></main>
 <footer class="site"><div class="wrap">
 <div class="studio"><img src="/assets/brand/capyember_logo.png" alt="CapyEmber" class="pixel"><strong>CapyEmber</strong><p>Capy of Gods lo hace CapyEmber, un estudio de una sola persona en Chile. Desarrollado con Godot.</p><p class="small">© 2026 CapyEmber. Capy of Gods es una marca de CapyEmber. Steam es una marca de Valve Corporation.</p></div>
 <div><h4>El juego</h4><ul>
 <li><a href="https://store.steampowered.com/app/4955600" target="_blank" rel="noopener">Página de Steam</a></li>
 <li><a href="https://youtu.be/9lMy9L7tKdw" target="_blank" rel="noopener">Tráiler en YouTube</a></li>
 <li><a href="/es/press/">Press Kit</a></li>
-</ul></div>
-<div><h4>Contacto</h4><ul>
+<li><a href="/es/wiki/">Wiki</a></li></ul></div>
+<div><h4>Wiki</h4><ul><li><a href="/es/wiki/how-to-play/">Cómo se juega</a></li><li><a href="/es/wiki/characters/">Personajes</a></li><li><a href="/es/wiki/weapons/">Armas</a></li><li><a href="/es/wiki/instincts/">Instintos</a></li><li><a href="/es/wiki/items/">Objetos</a></li><li><a href="/es/wiki/bosses/">Jefes</a></li><li><a href="/es/wiki/enemies/">Enemigos</a></li></ul></div><div><h4>Contacto</h4><ul>
 <li><a href="mailto:capyember@gmail.com">capyember@gmail.com</a></li>
 <li><a href="https://discord.gg/KsckWpZKXZ" target="_blank" rel="noopener">Discord</a></li>
 <li><a href="https://x.com/capyember" target="_blank" rel="noopener">X / Twitter</a></li>
 <li><a href="https://instagram.com/capyember" target="_blank" rel="noopener">Instagram</a></li>
 </ul></div>
 </div></footer>
+<button class="to-top" aria-label="Volver arriba">▲</button>
 </body></html>
